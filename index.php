@@ -8,7 +8,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type = "text/css" href="css/style.css">
     <link rel="stylesheet" type = "text/css" href="css/css/all.min.css">
-
 </head>
 <body>
     <img class="wave" src="imagenes/wave.png" alt="">
@@ -17,7 +16,7 @@
             <img src="imagenes/usuario.png" alt="">
         </div>
         <div class="contenido-login">
-            <form action="">
+            <form action="Controlador/loginController.php" method="post">
                 <img src="imagenes/usuario1.png" alt="">
                 <h2>Tienda Marquez</h2>
                 <div class="input-login dni">
@@ -41,9 +40,7 @@
                 <input type="submit" class="btn" value="Iniciar Sesion">
             </form>
         </div>
-
     </div>
-
 </body>
 
 <script src="js/login.js"></script>

@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     overflow: hidden;
 }
 
@@ -48,7 +48,7 @@ form {
 }
 
 .contenido-login img {
-    width: 100px;
+    height: 100px;
 }
 
 .contenido-login h2 {
@@ -64,7 +64,7 @@ form {
     grid-template-columns: 7% 93%;
     margin: 25px 0;
     padding: 5px 0;
-    border-bottom: 2px solid rgb(211, 126, 14);
+    border-bottom: 2px solid #d4bebe;
 }
 
 .contenido-login .input-login.dni {
@@ -84,14 +84,14 @@ form {
 
 .input-login>div {
     position: relative;
-    height: 50px;
+    height: 45px;
 }
 
 .input-login>div>h5 {
     position: absolute;
     left: 10px;
     top: 50%;
-    transform: rotateY(-50%);
+    transform: translateY(-50%);
     color: #444;
     font-size: 18px;
     transition: .3s;
